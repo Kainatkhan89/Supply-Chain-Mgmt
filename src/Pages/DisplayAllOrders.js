@@ -13,7 +13,7 @@ import {
   Button,
   Paper
 } from '@mui/material';
-import { API_GET_DATA_FROM_DYNAMO } from "../Util/URLs";
+import { API_GET_DATA_FROM_DYNAMO } from "../util/URLs";
 
 const DisplayAllOrders = () => {
   const [records, setRecords] = useState([]);

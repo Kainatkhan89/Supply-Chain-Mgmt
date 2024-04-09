@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import ImageUploadForm from './Pages/UploadOrderReceipt';
 import SupplyChainOrder from './Pages/CreateSupplyChainOrder';
 import DisplayAllOrders from './Pages/DisplayAllOrders';
-import { API_PROCESS_IMAGE_URL, API_ADD_DATA_URL, API_SUBSCRIPTION_ENDPOINT } from "./Util/URLs";
+import { API_PROCESS_IMAGE_URL, API_ADD_DATA_URL, API_SUBSCRIPTION_ENDPOINT } from "./util/URLs";
 import {
   Modal,
   Box,
